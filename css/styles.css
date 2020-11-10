@@ -1,0 +1,102 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+
+}
+
+body{
+    background-image: url(../img/pista.jpeg);
+    background-repeat: no-repeat;
+}
+
+h1{
+    text-align: center;
+    padding-top:  23%;
+    color: white;
+    font-size: 47px;
+}
+h2{
+    text-align: center;
+    color: white;
+    font-size: 37px;
+}
+
+.barraa{
+    display: flex;
+    background-color:blue;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.barraa div{
+    text-align: center;
+    color: white; 
+    padding-left: 3%; 
+
+}
+
+.barraa div:hover{
+    color: rgb(197, 193, 193);
+    cursor: pointer;
+}
+.boton{
+    display: flex;
+    justify-content: center;
+}
+.bot_pistes{
+    text-align: center;
+    color:white;
+    background-color:blue;
+    width: 12%;
+    font-size: 90%;
+    border: 2px solid white;
+    line-height: 60px;
+    border-radius: 12px;
+    font-weight: bold;
+    margin-right: 5px;
+
+}
+.bot_pistes:hover{
+    background-color: rgba(255, 255, 255, 0.082);
+    border: 2px solid black;
+    cursor: pointer;
+}
+.bot_reserves{
+    text-align: center;
+    color:white;
+    background-color:blue;
+    width: 12%;
+    font-size: 90%;
+    border: 2px solid white;
+    line-height: 60px;
+    border-radius: 12px;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.bot_reserves:hover{
+    background-color: rgba(255, 255, 255, 0.082);
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.tab-container-1{
+    display: flex;
+    background-color:blue;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-align: center;
+}
+
+
+.tab-container-1 div:hover{
+    color: rgb(197, 193, 193);
+    cursor: pointer;
+}
